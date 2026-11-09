@@ -1,0 +1,12 @@
+{
+  "name": "emal-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "site": "python -m http.server 8080",
+    "cms": "decap-server"
+  },
+  "devDependencies": {
+    "decap-server": "^3.11.6"
+  }
+}
